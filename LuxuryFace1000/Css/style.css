@@ -1,0 +1,146 @@
+/** @format */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.bgimage {
+	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+		url("/Img/wall2.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.menu {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.leftmenu {
+	width: 20%;
+	line-height: 100px;
+	float: left;
+}
+.leftmenu h4 {
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: "montserrat", sans-serif;
+}
+.rightmenu {
+	width: 60%;
+	height: 100px;
+	float: right;
+}
+.rightmenu ul {
+	margin-left: 200px;
+}
+.rightmenu ul li {
+	display: inline-block;
+	font-family: "montserrat", sans-serif;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.rightmenu ul li:hover {
+	color: #00ccff;
+}
+#firstlist {
+	color: #00ccff;
+}
+.text {
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+.text h4 {
+	font-size: 14px;
+	font-family: "open sans", sans-serif;
+}
+
+/*typing effect*/
+.intro {
+	text-align: center;
+}
+
+.typings {
+	position: relative;
+	margin-left: 10px;
+}
+
+.typings::after {
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 90%;
+	border-right: 2px solid white;
+	animation: blink 0.5s infinite ease;
+}
+/* Handles */
+
+.handles {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 5px;
+	margin-top: 50px;
+	background-color: transparent;
+}
+.hire {
+	border: 3px solid white;
+}
+
+.contacts {
+	border: 3px solid white;
+}
+.text a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	margin-top: 80px;
+
+	cursor: pointer;
+	padding: 10px 35px;
+
+	color: white;
+	font-family: "montserrat", sans-serif;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.164);
+}
+.text a:hover {
+	background-color: white;
+	color: black;
+}
+/*keyframe animation*/
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.text h1 {
+	font-size: 62px;
+	font-family: "montserrat", sans-serif;
+	font-weight: 700px;
+	margin: 14px 0px;
+}
+.text h3 {
+	font-size: 15px;
+	font-family: "open sans", sans-serif;
+	margin-bottom: 30px;
+}
+
+/*type write effect*/
