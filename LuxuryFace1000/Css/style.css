@@ -149,7 +149,10 @@ body {
 }
 
 /*type write effect*/
-
+/* Hero */
+.hero {
+	background-color: #e9ecef;
+}
 /* SECTION */
 .section {
 	padding-top: 80px;
@@ -167,7 +170,7 @@ body {
 .section p {
 	font-size: 18px;
 	color: #343a40;
-	margin: 0 50px;
+	margin: 0 80px;
 	padding-top: 25px;
 }
 
@@ -189,6 +192,6 @@ body {
 .about p {
 	font-size: 18px;
 	color: #343a40;
-	margin: 0 50px;
+	margin: 0 80px;
 	padding-top: 25px;
 }
