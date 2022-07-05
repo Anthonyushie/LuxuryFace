@@ -4,9 +4,9 @@
 	margin: 0px;
 	padding: 0px;
 }
-.bgimage {
+.header {
 	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-		url("/Img/wall2.jpg");
+		url("/LuxuryFace/LuxuryFace1000/Img/wal3.jpg");
 	background-size: cover;
 	width: 100%;
 	height: 100vh;
