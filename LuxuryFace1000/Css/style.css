@@ -3,10 +3,16 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	box-sizing: border-box;
 }
+
+body {
+	background-color: whitesmoke;
+}
+
 .header {
 	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-		url("/LuxuryFace/LuxuryFace1000/Img/Wall2.jpg");
+		url("/LuxuryFace1000/Img/Wall2.jpg");
 	background-size: cover;
 	width: 100%;
 	height: 650px;
@@ -143,3 +149,46 @@
 }
 
 /*type write effect*/
+
+/* SECTION */
+.section {
+	padding-top: 80px;
+	width: 100%;
+}
+.section h2 {
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: 600;
+	/* color: #00bed2; */
+	color: #343a40;
+	text-align: center;
+}
+
+.section p {
+	font-size: 18px;
+	color: #343a40;
+	margin: 0 50px;
+	padding-top: 25px;
+}
+
+/* ABOUT styling */
+.about {
+	padding-top: 80px;
+	width: 100%;
+}
+
+.about h2 {
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: 600;
+	/* color: #00bed2; */
+	color: #343a40;
+	text-align: center;
+}
+
+.about p {
+	font-size: 18px;
+	color: #343a40;
+	margin: 0 50px;
+	padding-top: 25px;
+}
